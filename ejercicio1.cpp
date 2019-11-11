@@ -13,6 +13,13 @@ int main(void)
     std::cout<< "Ubicación de la memoria:" <<&r<<std::endl;
     std::cout<< "segundo resutado: " <<resta(9,3)<<"\n";
     
-    std::cout<< "Tercer resultado " <<rest(q,s)<<"\n";
+    std::cout<< "Tercer resultado " <<resta(q,s)<<"\n";
+    
+    r=4+resta(q,s);
+    std::cout<< "TUbicación de la memoria de r es" <<&r<<std::endl;
+    std::cout<< "Ubicación de la memoria de q es" <<&q<<std::endl;
+    std::cout<< "Ubicación de la memoria s es" <<&s<<std::endl;
+    std::cout<< "El caurto resultado es " <<r<<"\n";
+    std::cout<< "Ubicación de la memoria r de nuevo es" <<&r<<std::endl;
     return 0;
 }
